@@ -9,6 +9,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 let userAvailabilities = [];
+let username12 = "dvir";
 
 app.post('/availability', (req, res) => {
     const { username, date, isAvailable } = req.body;
